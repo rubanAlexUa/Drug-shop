@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="shop-parts">
+            <a class='shop'>Shop</a>
+            |
+            <a class='cart-hyp'>Shopping Cart</a>
+        </div>
+    </header>
+    <main>
+        <div class="left-part parent-border">
+            <div class="div-shops">
+                <h2>Shops:</h2>
+                <div class="parent-border">Drugs 24</div>
+                <div class="parent-border">Medicine</div>
+                <div class="parent-border">Pharmacy</div>
+                <div class="parent-border">etc...</div>
+                <div class="parent-border">etc...</div>
+            </div>
+            <div class="sort">
+                <input type="button" value="Sort by price(low)" class="btn-sort low-price">
+                <input type="button" value="Sort by price(high)"class="btn-sort high-price">
+                <input type="button" value="Sort by date"class="btn-sort date">
+            </div>
+        </div>
+        <div class="right-part parent-border">
+        </div>
+    </main>
+    <div class="cart">
+        <div class="buy-form parent-border">
+            <form>
+                <label for="Name">Name:</label>
+                <input type="text" name="name" class="client-name">
+                <label for="Email">Email:</label>
+                <input type="email" name="name">
+                <label for="Phone">Phone:</label>
+                <input type="tel" name="name">
+                <label for="Address">Address</label>
+                <input type="address" name="name">
+                
+            </form>
+        </div>
+        <div class="drugs-cart parent-border">
+
+        </div>
+        <div class="buy parent-border">
+            <h1 class="total-price">Total price: 0$</h1>
+            <input type="submit" value="Submit" class="submit">
+        </div>
+    </div>
+    <script src="medicine.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

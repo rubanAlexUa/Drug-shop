@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+body, html{
+    height: 100%;
+    margin: 0 25px;
+}
+.shop-parts{
+    position: absolute;
+    z-index: 2;
+    font-size: 20px;
+    font-weight: bold;
+    color: yellowgreen;
+    top: 20px;
+    left: 35px;
+}
+.shop-parts > a{
+    padding: 15px;
+}
+.parent-border{
+    border: 5px solid gray;
+    border-radius: 15px;
+}
+main{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: row;
+    top: 50px;
+    height: 70%;
+}
+.left-part{
+    width: 25%;
+    height: 100%;
+}
+.div-shops{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.div-shops > div{
+    margin: 15px;
+    width: 40%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.right-part{
+    width: 65%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+.div-drug{
+    margin: 10px;
+    width: 30%;
+    height: 30%;
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-drug{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
+.div-info-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.div-info-btn > button{
+    height: 35px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.star-f{
+    width: 10%;
+    position: absolute;
+    left: 10px;
+}
+h3{
+    font-size: 15px;
+}
+h2{
+    font-size: 20px;
+}
+
+.cart{
+    position: absolute;
+    visibility: hidden;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #4b4b4ba1;
+    display: flex;
+    justify-content: space-around;
+}
+.buy-form{
+    width: 45%;
+    border-color: black;
+    height: 60%;
+}
+form{
+    margin-left: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+form > input{
+    border-radius: 5px;
+    width: 70%;
+    margin: 20px 0;
+    display: block;
+    height: 30px;
+}
+.drugs-cart{
+    width: 45%;
+    border-color: black;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.buy-form, .drugs-cart{
+    margin-top: 50px;
+    background-color: #646464bd;
+}
+.buy{
+    display: flex;
+    border-color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 25%;
+    width: 45%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.buy > input{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.drug-buy{
+    position: relative;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    height: fit-content;
+    padding: 15px;
+    margin-top: 10px;
+}
+.drug-buy > img{
+    width: 50%;
+    height: 100%;
+}
+.info-drug-cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+.info-drug-cart > h1, .info-drug-cart > h3, .info-drug-cart > button, .info-drug-cart > input{
+    margin: 10px;
+}
+.info-drug-cart > button, .info-drug-cart > input{
+    width: 100px;
+}
+
+.sort{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-sort{
+    height: 30px;
+    width: 125px;
+    margin: 10px;
+    border-radius: 10px;
+}
